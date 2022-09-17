@@ -1,5 +1,4 @@
 def prettier_decorator(decorated_function):
-    # this illustrates how decorators wrap a function to add a functionality
     def wrapper():
         print("printed BEFORE decorated_function is called")
         decorated_function()

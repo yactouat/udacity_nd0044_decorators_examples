@@ -11,9 +11,10 @@ def documented_decorator(decorated_function):
 
 @documented_decorator
 def some_func(some_str_arg):
-    '''the introspection information about the original function 
+    '''the introspection information about the original function
        will be preserved'''
     return f"doing stuff with {some_str_arg}"
 
 
 help(some_func)
+# print(some_func.__name__)

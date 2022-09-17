@@ -13,6 +13,7 @@ def some_func():
 
 # this is how `some_func`
 # becomes actually decorated
+# ! try to comment this line and see what happens ;)
 some_func = simple_decorator(some_func)
 
 

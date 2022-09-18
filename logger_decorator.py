@@ -19,5 +19,9 @@ def logger(func):
 def some_func():
     print("I do something")
 
+@logger
+def some_func2():
+    print("I do something else")
 
 some_func()
+some_func2()
